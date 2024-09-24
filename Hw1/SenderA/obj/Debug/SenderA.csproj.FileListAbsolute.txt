@@ -1,0 +1,13 @@
+C:\Users\lwq_0\Desktop\WindowsCode\Hw1\SenderA\bin\Debug\SenderA.exe.config
+C:\Users\lwq_0\Desktop\WindowsCode\Hw1\SenderA\bin\Debug\SenderA.exe
+C:\Users\lwq_0\Desktop\WindowsCode\Hw1\SenderA\bin\Debug\SenderA.pdb
+C:\Users\lwq_0\Desktop\WindowsCode\Hw1\SenderA\bin\Debug\CopyDataStruct.dll
+C:\Users\lwq_0\Desktop\WindowsCode\Hw1\SenderA\bin\Debug\CopyDataStruct.pdb
+C:\Users\lwq_0\Desktop\WindowsCode\Hw1\SenderA\obj\Debug\SenderA.csproj.AssemblyReference.cache
+C:\Users\lwq_0\Desktop\WindowsCode\Hw1\SenderA\obj\Debug\SenderA.Form1.resources
+C:\Users\lwq_0\Desktop\WindowsCode\Hw1\SenderA\obj\Debug\SenderA.Properties.Resources.resources
+C:\Users\lwq_0\Desktop\WindowsCode\Hw1\SenderA\obj\Debug\SenderA.csproj.GenerateResource.cache
+C:\Users\lwq_0\Desktop\WindowsCode\Hw1\SenderA\obj\Debug\SenderA.csproj.CoreCompileInputs.cache
+C:\Users\lwq_0\Desktop\WindowsCode\Hw1\SenderA\obj\Debug\SenderA.csproj.Up2Date
+C:\Users\lwq_0\Desktop\WindowsCode\Hw1\SenderA\obj\Debug\SenderA.exe
+C:\Users\lwq_0\Desktop\WindowsCode\Hw1\SenderA\obj\Debug\SenderA.pdb

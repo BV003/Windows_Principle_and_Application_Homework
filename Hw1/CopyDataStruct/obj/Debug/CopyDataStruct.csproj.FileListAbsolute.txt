@@ -1,0 +1,6 @@
+C:\Users\lwq_0\Desktop\WindowsCode\Hw1\CopyDataStruct\bin\Debug\CopyDataStruct.dll
+C:\Users\lwq_0\Desktop\WindowsCode\Hw1\CopyDataStruct\bin\Debug\CopyDataStruct.pdb
+C:\Users\lwq_0\Desktop\WindowsCode\Hw1\CopyDataStruct\obj\Debug\CopyDataStruct.csproj.AssemblyReference.cache
+C:\Users\lwq_0\Desktop\WindowsCode\Hw1\CopyDataStruct\obj\Debug\CopyDataStruct.csproj.CoreCompileInputs.cache
+C:\Users\lwq_0\Desktop\WindowsCode\Hw1\CopyDataStruct\obj\Debug\CopyDataStruct.dll
+C:\Users\lwq_0\Desktop\WindowsCode\Hw1\CopyDataStruct\obj\Debug\CopyDataStruct.pdb

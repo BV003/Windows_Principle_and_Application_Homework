@@ -1,0 +1,20 @@
+﻿<Window x:Class="ReceiverC.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ReceiverC"
+        mc:Ignorable="d"
+        Title="FormB" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="361*"/>
+            <ColumnDefinition Width="39*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="TextBox2" HorizontalAlignment="Left" Margin="480,231,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TextBox1" HorizontalAlignment="Left" Margin="217,206,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="183" Height="99"/>
+        <Label Content="内容" HorizontalAlignment="Left" Margin="217,175,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.132,0.44"/>
+        <Label Content="接收时间" HorizontalAlignment="Left" Margin="480,200,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.306,1.438"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,16 @@
+C:\Users\lwq_0\Desktop\WindowsCode\Hw1\ReceiverB\bin\Debug\ReceiverB.exe.config
+C:\Users\lwq_0\Desktop\WindowsCode\Hw1\ReceiverB\bin\Debug\ReceiverB.exe
+C:\Users\lwq_0\Desktop\WindowsCode\Hw1\ReceiverB\bin\Debug\ReceiverB.pdb
+C:\Users\lwq_0\Desktop\WindowsCode\Hw1\ReceiverB\bin\Debug\CopyDataStruct.dll
+C:\Users\lwq_0\Desktop\WindowsCode\Hw1\ReceiverB\bin\Debug\SenderA.exe
+C:\Users\lwq_0\Desktop\WindowsCode\Hw1\ReceiverB\bin\Debug\CopyDataStruct.pdb
+C:\Users\lwq_0\Desktop\WindowsCode\Hw1\ReceiverB\bin\Debug\SenderA.pdb
+C:\Users\lwq_0\Desktop\WindowsCode\Hw1\ReceiverB\bin\Debug\SenderA.exe.config
+C:\Users\lwq_0\Desktop\WindowsCode\Hw1\ReceiverB\obj\Debug\ReceiverB.csproj.AssemblyReference.cache
+C:\Users\lwq_0\Desktop\WindowsCode\Hw1\ReceiverB\obj\Debug\ReceiverB.Form1.resources
+C:\Users\lwq_0\Desktop\WindowsCode\Hw1\ReceiverB\obj\Debug\ReceiverB.Properties.Resources.resources
+C:\Users\lwq_0\Desktop\WindowsCode\Hw1\ReceiverB\obj\Debug\ReceiverB.csproj.GenerateResource.cache
+C:\Users\lwq_0\Desktop\WindowsCode\Hw1\ReceiverB\obj\Debug\ReceiverB.csproj.CoreCompileInputs.cache
+C:\Users\lwq_0\Desktop\WindowsCode\Hw1\ReceiverB\obj\Debug\ReceiverB.csproj.Up2Date
+C:\Users\lwq_0\Desktop\WindowsCode\Hw1\ReceiverB\obj\Debug\ReceiverB.exe
+C:\Users\lwq_0\Desktop\WindowsCode\Hw1\ReceiverB\obj\Debug\ReceiverB.pdb

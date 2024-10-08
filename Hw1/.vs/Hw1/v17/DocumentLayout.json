@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1F27AAE9-3E43-4685-91FF-69B985544EFB}|ReceiverC\\ReceiverC.csproj|C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw1\\receiverc\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{273FA817-7150-4062-8ED8-230D28356FB3}|CopyDataStruct\\CopyDataStruct.csproj|C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw1\\copydatastruct\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{273FA817-7150-4062-8ED8-230D28356FB3}|CopyDataStruct\\CopyDataStruct.csproj|solutionrelative:copydatastruct\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F27AAE9-3E43-4685-91FF-69B985544EFB}|ReceiverC\\ReceiverC.csproj|c:\\users\\lwq_0\\desktop\\windowscode\\hw1\\receiverc\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F27AAE9-3E43-4685-91FF-69B985544EFB}|ReceiverC\\ReceiverC.csproj|solutionrelative:receiverc\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{FD685036-CD9B-4E6C-9001-4370075D615B}|ReceiverB\\ReceiverB.csproj|solutionrelative:receiverb\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD685036-CD9B-4E6C-9001-4370075D615B}|ReceiverB\\ReceiverB.csproj|c:\\users\\lwq_0\\desktop\\windowscode\\hw1\\receiverb\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{FD685036-CD9B-4E6C-9001-4370075D615B}|ReceiverB\\ReceiverB.csproj|C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw1\\receiverb\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FD685036-CD9B-4E6C-9001-4370075D615B}|ReceiverB\\ReceiverB.csproj|solutionrelative:receiverb\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0692987B-6947-43C4-B875-BFDE40124554}|SenderA\\SenderA.csproj|C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw1\\sendera\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0692987B-6947-43C4-B875-BFDE40124554}|SenderA\\SenderA.csproj|solutionrelative:sendera\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{273FA817-7150-4062-8ED8-230D28356FB3}|CopyDataStruct\\CopyDataStruct.csproj|C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw1\\copydatastruct\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{273FA817-7150-4062-8ED8-230D28356FB3}|CopyDataStruct\\CopyDataStruct.csproj|solutionrelative:copydatastruct\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1F27AAE9-3E43-4685-91FF-69B985544EFB}|ReceiverC\\ReceiverC.csproj|C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw1\\receiverc\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -50,48 +50,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw1\\ReceiverC\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "ReceiverC\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw1\\ReceiverC\\MainWindow.xaml.cs",
               "RelativeToolTip": "ReceiverC\\MainWindow.xaml.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAQwEcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-24T02:29:26.543Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Form1.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw1\\SenderA\\Form1.cs",
               "RelativeDocumentMoniker": "SenderA\\Form1.cs",
               "ToolTip": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw1\\SenderA\\Form1.cs [\u8BBE\u8BA1]",
               "RelativeToolTip": "SenderA\\Form1.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T02:28:05.872Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
+              "WhenOpened": "2024-09-24T02:28:05.872Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Form1.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw1\\ReceiverB\\Form1.cs",
               "RelativeDocumentMoniker": "ReceiverB\\Form1.cs",
               "ToolTip": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw1\\ReceiverB\\Form1.cs [\u8BBE\u8BA1]",
               "RelativeToolTip": "ReceiverB\\Form1.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T02:28:40.123Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
+              "WhenOpened": "2024-09-24T02:28:40.123Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw1\\ReceiverB\\Form1.cs",
               "RelativeDocumentMoniker": "ReceiverB\\Form1.cs",
@@ -99,8 +97,7 @@
               "RelativeToolTip": "ReceiverB\\Form1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T03:06:49.659Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T03:06:49.659Z"
             },
             {
               "$type": "Document",
@@ -111,12 +108,11 @@
               "ToolTip": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw1\\ReceiverC\\App.xaml",
               "RelativeToolTip": "ReceiverC\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-24T03:04:56.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T03:04:56.178Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw1\\CopyDataStruct\\Class1.cs",
               "RelativeDocumentMoniker": "CopyDataStruct\\Class1.cs",
@@ -129,7 +125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw1\\SenderA\\Form1.cs",
               "RelativeDocumentMoniker": "SenderA\\Form1.cs",
@@ -137,8 +133,7 @@
               "RelativeToolTip": "SenderA\\Form1.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAkwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T02:41:54.253Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T02:41:54.253Z"
             },
             {
               "$type": "Document",
@@ -149,8 +144,7 @@
               "ToolTip": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw1\\ReceiverC\\MainWindow.xaml",
               "RelativeToolTip": "ReceiverC\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-24T03:09:03.149Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T03:09:03.149Z"
             },
             {
               "$type": "Document",

@@ -1,0 +1,13 @@
+﻿<Window x:Class="WpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Fire Alarm System" Height="300" Width="400">
+    <StackPanel>
+        <Button Content="绑定 FireDepartment" Click="Bind1_Click"/>
+        <Button Content="绑定 SecurityTeam" Click="Bind2_Click"/>
+        <Button Content="解绑 FireDepartment" Click="Unbind1_Click"/>
+        <Button Content="解绑 SecurityTeam" Click="Unbind2_Click"/>
+        <Button Content="触发火警" Click="BtnTrigger_Click"/>
+        <TextBox Name="OutputTextBox" Height="100" Margin="10"/>
+    </StackPanel>
+</Window>

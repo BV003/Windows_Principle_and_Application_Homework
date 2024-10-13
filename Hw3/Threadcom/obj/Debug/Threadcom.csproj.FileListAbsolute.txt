@@ -1,0 +1,10 @@
+C:\Users\lwq_0\Desktop\WindowsCode\Hw3\Threadcom\bin\Debug\Threadcom.exe.config
+C:\Users\lwq_0\Desktop\WindowsCode\Hw3\Threadcom\bin\Debug\Threadcom.exe
+C:\Users\lwq_0\Desktop\WindowsCode\Hw3\Threadcom\bin\Debug\Threadcom.pdb
+C:\Users\lwq_0\Desktop\WindowsCode\Hw3\Threadcom\obj\Debug\Threadcom.csproj.AssemblyReference.cache
+C:\Users\lwq_0\Desktop\WindowsCode\Hw3\Threadcom\obj\Debug\Threadcom.Properties.Resources.resources
+C:\Users\lwq_0\Desktop\WindowsCode\Hw3\Threadcom\obj\Debug\Threadcom.csproj.GenerateResource.cache
+C:\Users\lwq_0\Desktop\WindowsCode\Hw3\Threadcom\obj\Debug\Threadcom.csproj.CoreCompileInputs.cache
+C:\Users\lwq_0\Desktop\WindowsCode\Hw3\Threadcom\obj\Debug\Threadcom.exe
+C:\Users\lwq_0\Desktop\WindowsCode\Hw3\Threadcom\obj\Debug\Threadcom.pdb
+C:\Users\lwq_0\Desktop\WindowsCode\Hw3\Threadcom\obj\Debug\Threadcom.demo.resources

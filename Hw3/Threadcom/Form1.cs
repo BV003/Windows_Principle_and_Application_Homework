@@ -16,23 +16,26 @@ namespace Threadcom
     public partial class demo : Form
     {
         public const int WM_COPYDATA = 0x004A;
-        protected override void DefWndProc(ref Message m)
+        protected override void WndProc(ref System.Windows.Forms.Message m)
         {
-            switch (m.Msg)
+            try
             {
-                case WM_COPYDATA:
-                    COPYDATASTRUCT cds = new COPYDATASTRUCT();
-                    Type t = cds.GetType();
-                    cds = (COPYDATASTRUCT)m.GetLParam(t);
-                    string strResult = cds.lpData;
-                    textBox1.Text = textBox1.Text + Environment.NewLine + strResult;//将每次接收到的结果分行输出
-                    break;
-                default:
-                    base.DefWndProc(ref m);
-                    break;
+                switch (m.Msg)
+                {
+                    case WM_COPYDATA:
+                        COPYDATASTRUCT MyKeyboardHookStruct = (COPYDATASTRUCT)Marshal.PtrToStructure(m.LParam, typeof(COPYDATASTRUCT));
+                        string strResult = MyKeyboardHookStruct.lpData;
+                        this.textBox1.Text = textBox1.Text + Environment.NewLine + strResult;
+                        break;
+                    default:
+                        base.WndProc(ref m);   // 调用基类函数处理其他消息。   
+                        break;
+                }
+            }
+            catch { 
+            
             }
         }
-
 
         [DllImport("User32.dll", EntryPoint = "SendMessage")]
         private static extern int SendMessage(IntPtr hWnd, int Msg, int wParam, ref COPYDATASTRUCT lParam);
@@ -45,10 +48,13 @@ namespace Threadcom
             [MarshalAs(UnmanagedType.LPStr)]
             public string lpData;
         }
-        private void strOutputHandler(object sendingProcess,DataReceivedEventArgs outLine)
+        private void strOutputHandler(object sendingProcess, DataReceivedEventArgs outLine)//回调函数编写
         {
+            StringBuilder cmdOutput = new StringBuilder();
+            cmdOutput.AppendLine(outLine.Data);
             //通过FindWindow API的方式找到目标进程句柄，然后发送消息
-            IntPtr WINDOW_HANDLER = FindWindow(null,"demo");
+            IntPtr WINDOW_HANDLER = FindWindow(null, "demo");
+            //封装消息
             if (WINDOW_HANDLER != IntPtr.Zero)
             {
                 COPYDATASTRUCT mystr = new COPYDATASTRUCT();
@@ -56,8 +62,7 @@ namespace Threadcom
                 if (string.IsNullOrEmpty(outLine.Data))
                 {
                     mystr.cbData = 0;
-                    mystr.lpData = ""
-                    ;
+                    mystr.lpData = "";
                 }
                 else
                 {
@@ -65,9 +70,12 @@ namespace Threadcom
                     mystr.cbData = sarr.Length + 1;
                     mystr.lpData = outLine.Data;
                 }
+                //发送消息
                 SendMessage(WINDOW_HANDLER, WM_COPYDATA, 0, ref mystr);
             }
         }
+
+
         public demo()
         {
             InitializeComponent();
@@ -119,30 +127,32 @@ namespace Threadcom
         {
             Process process = new Process();
             process.StartInfo.FileName = "cmd.exe";
-            // 是否使用外壳程序
+            // 是否使用外壳程序   
             process.StartInfo.UseShellExecute = false;
-            // 是否在新窗口中启动该进程的值
+            // 是否在新窗口中启动该进程的值   
             process.StartInfo.CreateNoWindow = true;
-            // 重定向输入流
+            // 重定向输入流  
             process.StartInfo.RedirectStandardInput = true;
             // 重定向输出流
             process.StartInfo.RedirectStandardOutput = true;
+
             process.OutputDataReceived += new DataReceivedEventHandler(strOutputHandler);
+
             //使ping命令执行九次
             string strCmd;
-            if (string.IsNullOrEmpty(textBox2.Text))
+            if (string.IsNullOrEmpty(textBox2.Text))//处理输入网址为空的情况
             {
-                strCmd = "ping www.sohu.com -n 10";
+                strCmd = "ping www.baidu.com -n  10";
             }
             else
             {
-                strCmd = $"ping {textBox2.Text.Trim()} -n 10";
+                strCmd = "ping " + textBox2.Text.Trim() + " -n  10";
             }
+            textBox1.Text = "";
             process.Start();
-            process.BeginOutputReadLine();
+            process.BeginOutputReadLine();// 开始异步读取输出以触发strOutputHandler
             process.StandardInput.WriteLine(strCmd);
             process.StandardInput.WriteLine("exit");
-
         }
     }
 }

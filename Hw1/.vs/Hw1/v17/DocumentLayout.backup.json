@@ -3,7 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0692987B-6947-43C4-B875-BFDE40124554}|SenderA\\SenderA.csproj|C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw1\\sendera\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FD685036-CD9B-4E6C-9001-4370075D615B}|ReceiverB\\ReceiverB.csproj|C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw1\\receiverb\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD685036-CD9B-4E6C-9001-4370075D615B}|ReceiverB\\ReceiverB.csproj|solutionrelative:receiverb\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD685036-CD9B-4E6C-9001-4370075D615B}|ReceiverB\\ReceiverB.csproj|C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw1\\receiverb\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FD685036-CD9B-4E6C-9001-4370075D615B}|ReceiverB\\ReceiverB.csproj|solutionrelative:receiverb\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD685036-CD9B-4E6C-9001-4370075D615B}|ReceiverB\\ReceiverB.csproj|c:\\users\\lwq_0\\desktop\\windowscode\\hw1\\receiverb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD685036-CD9B-4E6C-9001-4370075D615B}|ReceiverB\\ReceiverB.csproj|solutionrelative:receiverb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0692987B-6947-43C4-B875-BFDE40124554}|SenderA\\SenderA.csproj|c:\\users\\lwq_0\\desktop\\windowscode\\hw1\\sendera\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0692987B-6947-43C4-B875-BFDE40124554}|SenderA\\SenderA.csproj|solutionrelative:sendera\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,20 +23,12 @@
       "RelativeMoniker": "D:0:0:{0692987B-6947-43C4-B875-BFDE40124554}|SenderA\\SenderA.csproj|solutionrelative:sendera\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FD685036-CD9B-4E6C-9001-4370075D615B}|ReceiverB\\ReceiverB.csproj|C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw1\\receiverb\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FD685036-CD9B-4E6C-9001-4370075D615B}|ReceiverB\\ReceiverB.csproj|solutionrelative:receiverb\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{273FA817-7150-4062-8ED8-230D28356FB3}|CopyDataStruct\\CopyDataStruct.csproj|c:\\users\\lwq_0\\desktop\\windowscode\\hw1\\copydatastruct\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{273FA817-7150-4062-8ED8-230D28356FB3}|CopyDataStruct\\CopyDataStruct.csproj|C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw1\\copydatastruct\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{273FA817-7150-4062-8ED8-230D28356FB3}|CopyDataStruct\\CopyDataStruct.csproj|solutionrelative:copydatastruct\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1F27AAE9-3E43-4685-91FF-69B985544EFB}|ReceiverC\\ReceiverC.csproj|C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw1\\receiverc\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F27AAE9-3E43-4685-91FF-69B985544EFB}|ReceiverC\\ReceiverC.csproj|solutionrelative:receiverc\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD685036-CD9B-4E6C-9001-4370075D615B}|ReceiverB\\ReceiverB.csproj|C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw1\\receiverb\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD685036-CD9B-4E6C-9001-4370075D615B}|ReceiverB\\ReceiverB.csproj|solutionrelative:receiverb\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1F27AAE9-3E43-4685-91FF-69B985544EFB}|ReceiverC\\ReceiverC.csproj|C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw1\\receiverc\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -46,11 +50,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw1\\ReceiverB\\Program.cs",
+              "RelativeDocumentMoniker": "ReceiverB\\Program.cs",
+              "ToolTip": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw1\\ReceiverB\\Program.cs",
+              "RelativeToolTip": "ReceiverB\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T01:05:56.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Form1.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw1\\SenderA\\Form1.cs",
               "RelativeDocumentMoniker": "SenderA\\Form1.cs",
@@ -62,7 +83,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw1\\ReceiverB\\Form1.cs",
               "RelativeDocumentMoniker": "ReceiverB\\Form1.cs",
@@ -74,32 +95,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw1\\ReceiverB\\Form1.cs",
               "RelativeDocumentMoniker": "ReceiverB\\Form1.cs",
               "ToolTip": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw1\\ReceiverB\\Form1.cs",
               "RelativeToolTip": "ReceiverB\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAtwBQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-24T03:06:49.659Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw1\\ReceiverC\\App.xaml",
               "RelativeDocumentMoniker": "ReceiverC\\App.xaml",
               "ToolTip": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw1\\ReceiverC\\App.xaml",
               "RelativeToolTip": "ReceiverC\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-24T03:04:56.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T03:04:56.178Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw1\\CopyDataStruct\\Class1.cs",
               "RelativeDocumentMoniker": "CopyDataStruct\\Class1.cs",
@@ -107,29 +127,24 @@
               "RelativeToolTip": "CopyDataStruct\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T02:27:14.488Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+              "WhenOpened": "2024-09-24T02:27:14.488Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw1\\SenderA\\Form1.cs",
               "RelativeDocumentMoniker": "SenderA\\Form1.cs",
               "ToolTip": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw1\\SenderA\\Form1.cs",
               "RelativeToolTip": "SenderA\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBMAAABZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-24T02:41:54.253Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw1\\ReceiverC\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "ReceiverC\\MainWindow.xaml.cs",
@@ -137,24 +152,22 @@
               "RelativeToolTip": "ReceiverC\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T02:29:26.543Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T02:29:26.543Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw1\\ReceiverC\\MainWindow.xaml",
               "RelativeDocumentMoniker": "ReceiverC\\MainWindow.xaml",
               "ToolTip": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw1\\ReceiverC\\MainWindow.xaml",
               "RelativeToolTip": "ReceiverC\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-24T03:09:03.149Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T03:09:03.149Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw1\\ReceiverC\\App.config",
               "RelativeDocumentMoniker": "ReceiverC\\App.config",
@@ -162,8 +175,7 @@
               "RelativeToolTip": "ReceiverC\\App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-09-24T03:09:04.829Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T03:09:04.829Z"
             }
           ]
         }

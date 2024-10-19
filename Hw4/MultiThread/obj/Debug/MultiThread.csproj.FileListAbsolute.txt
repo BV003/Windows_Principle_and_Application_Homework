@@ -1,0 +1,10 @@
+C:\Users\lwq_0\Desktop\WindowsCode\Hw4\MultiThread\bin\Debug\MultiThread.exe.config
+C:\Users\lwq_0\Desktop\WindowsCode\Hw4\MultiThread\bin\Debug\MultiThread.exe
+C:\Users\lwq_0\Desktop\WindowsCode\Hw4\MultiThread\bin\Debug\MultiThread.pdb
+C:\Users\lwq_0\Desktop\WindowsCode\Hw4\MultiThread\obj\Debug\MultiThread.csproj.AssemblyReference.cache
+C:\Users\lwq_0\Desktop\WindowsCode\Hw4\MultiThread\obj\Debug\MultiThread.Form1.resources
+C:\Users\lwq_0\Desktop\WindowsCode\Hw4\MultiThread\obj\Debug\MultiThread.Properties.Resources.resources
+C:\Users\lwq_0\Desktop\WindowsCode\Hw4\MultiThread\obj\Debug\MultiThread.csproj.GenerateResource.cache
+C:\Users\lwq_0\Desktop\WindowsCode\Hw4\MultiThread\obj\Debug\MultiThread.csproj.CoreCompileInputs.cache
+C:\Users\lwq_0\Desktop\WindowsCode\Hw4\MultiThread\obj\Debug\MultiThread.exe
+C:\Users\lwq_0\Desktop\WindowsCode\Hw4\MultiThread\obj\Debug\MultiThread.pdb

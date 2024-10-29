@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw2\\WpfApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D1F62D40-44B7-4F30-BBAD-E1E2736E4D23}|WpfApp.csproj|c:\\users\\lwq_0\\desktop\\windowscode\\hw2\\wpfapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1F62D40-44B7-4F30-BBAD-E1E2736E4D23}|WpfApp.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D1F62D40-44B7-4F30-BBAD-E1E2736E4D23}|WpfApp.csproj|C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw2\\WpfApp\\firealarm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1F62D40-44B7-4F30-BBAD-E1E2736E4D23}|WpfApp.csproj|solutionrelative:firealarm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D1F62D40-44B7-4F30-BBAD-E1E2736E4D23}|WpfApp.csproj|C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw2\\WpfApp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{D1F62D40-44B7-4F30-BBAD-E1E2736E4D23}|WpfApp.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1F62D40-44B7-4F30-BBAD-E1E2736E4D23}|WpfApp.csproj|C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw2\\WpfApp\\firealarm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1F62D40-44B7-4F30-BBAD-E1E2736E4D23}|WpfApp.csproj|solutionrelative:firealarm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D1F62D40-44B7-4F30-BBAD-E1E2736E4D23}|WpfApp.csproj|c:\\users\\lwq_0\\desktop\\windowscode\\hw2\\wpfapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1F62D40-44B7-4F30-BBAD-E1E2736E4D23}|WpfApp.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,23 +22,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "FireAlarm.cs",
               "DocumentMoniker": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw2\\WpfApp\\FireAlarm.cs",
               "RelativeDocumentMoniker": "FireAlarm.cs",
               "ToolTip": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw2\\WpfApp\\FireAlarm.cs",
               "RelativeToolTip": "FireAlarm.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowA8AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-08T02:08:05.472Z"
+              "WhenOpened": "2024-10-08T02:08:05.472Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -49,17 +46,18 @@
               "ToolTip": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw2\\WpfApp\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-08T02:07:07.058Z"
+              "WhenOpened": "2024-10-08T02:07:07.058Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw2\\WpfApp\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw2\\WpfApp\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-08T02:07:06.017Z",
               "EditorCaption": ""

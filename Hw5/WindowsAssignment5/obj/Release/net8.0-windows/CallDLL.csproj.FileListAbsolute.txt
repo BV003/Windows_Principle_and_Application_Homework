@@ -1,0 +1,16 @@
+C:\Users\123\Desktop\WindowsAssignment5\WindowsAssignment5\bin\Release\net8.0-windows\CallDLL.exe
+C:\Users\123\Desktop\WindowsAssignment5\WindowsAssignment5\bin\Release\net8.0-windows\CallDLL.deps.json
+C:\Users\123\Desktop\WindowsAssignment5\WindowsAssignment5\bin\Release\net8.0-windows\CallDLL.runtimeconfig.json
+C:\Users\123\Desktop\WindowsAssignment5\WindowsAssignment5\bin\Release\net8.0-windows\CallDLL.dll
+C:\Users\123\Desktop\WindowsAssignment5\WindowsAssignment5\bin\Release\net8.0-windows\CallDLL.pdb
+C:\Users\123\Desktop\WindowsAssignment5\WindowsAssignment5\obj\Release\net8.0-windows\WindowsAssignment5.Form1.resources
+C:\Users\123\Desktop\WindowsAssignment5\WindowsAssignment5\obj\Release\net8.0-windows\CallDLL.csproj.GenerateResource.cache
+C:\Users\123\Desktop\WindowsAssignment5\WindowsAssignment5\obj\Release\net8.0-windows\CallDLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\123\Desktop\WindowsAssignment5\WindowsAssignment5\obj\Release\net8.0-windows\CallDLL.AssemblyInfoInputs.cache
+C:\Users\123\Desktop\WindowsAssignment5\WindowsAssignment5\obj\Release\net8.0-windows\CallDLL.AssemblyInfo.cs
+C:\Users\123\Desktop\WindowsAssignment5\WindowsAssignment5\obj\Release\net8.0-windows\CallDLL.csproj.CoreCompileInputs.cache
+C:\Users\123\Desktop\WindowsAssignment5\WindowsAssignment5\obj\Release\net8.0-windows\CallDLL.dll
+C:\Users\123\Desktop\WindowsAssignment5\WindowsAssignment5\obj\Release\net8.0-windows\refint\CallDLL.dll
+C:\Users\123\Desktop\WindowsAssignment5\WindowsAssignment5\obj\Release\net8.0-windows\CallDLL.pdb
+C:\Users\123\Desktop\WindowsAssignment5\WindowsAssignment5\obj\Release\net8.0-windows\CallDLL.genruntimeconfig.cache
+C:\Users\123\Desktop\WindowsAssignment5\WindowsAssignment5\obj\Release\net8.0-windows\ref\CallDLL.dll

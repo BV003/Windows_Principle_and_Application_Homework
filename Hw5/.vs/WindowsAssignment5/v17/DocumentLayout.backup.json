@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4E25F129-5624-44AF-926D-146B3F5F3B9C}|WindowsAssignment5\\CallDLL.csproj|c:\\users\\lwq_0\\desktop\\windowscode\\hw5\\windowsassignment5\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E25F129-5624-44AF-926D-146B3F5F3B9C}|WindowsAssignment5\\CallDLL.csproj|solutionrelative:windowsassignment5\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E25F129-5624-44AF-926D-146B3F5F3B9C}|WindowsAssignment5\\CallDLL.csproj|C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw5\\windowsassignment5\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4E25F129-5624-44AF-926D-146B3F5F3B9C}|WindowsAssignment5\\CallDLL.csproj|solutionrelative:windowsassignment5\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72AE1733-53EA-475A-80D9-85D44ACA43F0}|CreateDLL\\CreateDLL.vcxproj|C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw5\\CreateDLL\\CreateDLL.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{72AE1733-53EA-475A-80D9-85D44ACA43F0}|CreateDLL\\CreateDLL.vcxproj|solutionrelative:CreateDLL\\CreateDLL.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72AE1733-53EA-475A-80D9-85D44ACA43F0}|CreateDLL\\CreateDLL.vcxproj|C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw5\\CreateDLL\\dllmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{72AE1733-53EA-475A-80D9-85D44ACA43F0}|CreateDLL\\CreateDLL.vcxproj|solutionrelative:CreateDLL\\dllmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72AE1733-53EA-475A-80D9-85D44ACA43F0}|CreateDLL\\CreateDLL.vcxproj|C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw5\\CreateDLL\\CreateDLL.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{72AE1733-53EA-475A-80D9-85D44ACA43F0}|CreateDLL\\CreateDLL.vcxproj|solutionrelative:CreateDLL\\CreateDLL.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw5\\WindowsAssignment5\\Form1.cs",
+              "RelativeDocumentMoniker": "WindowsAssignment5\\Form1.cs",
+              "ToolTip": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw5\\WindowsAssignment5\\Form1.cs [Design]",
+              "RelativeToolTip": "WindowsAssignment5\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T09:10:59.595Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw5\\WindowsAssignment5\\Form1.cs",
+              "RelativeDocumentMoniker": "WindowsAssignment5\\Form1.cs",
+              "ToolTip": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw5\\WindowsAssignment5\\Form1.cs",
+              "RelativeToolTip": "WindowsAssignment5\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T11:31:24.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateDLL.cpp",
+              "DocumentMoniker": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw5\\CreateDLL\\CreateDLL.cpp",
+              "RelativeDocumentMoniker": "CreateDLL\\CreateDLL.cpp",
+              "ToolTip": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw5\\CreateDLL\\CreateDLL.cpp",
+              "RelativeToolTip": "CreateDLL\\CreateDLL.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-31T11:13:57.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateDLL.h",
+              "DocumentMoniker": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw5\\CreateDLL\\CreateDLL.h",
+              "RelativeDocumentMoniker": "CreateDLL\\CreateDLL.h",
+              "ToolTip": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw5\\CreateDLL\\CreateDLL.h",
+              "RelativeToolTip": "CreateDLL\\CreateDLL.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-31T11:11:54.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "dllmain.cpp",
+              "DocumentMoniker": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw5\\CreateDLL\\dllmain.cpp",
+              "RelativeDocumentMoniker": "CreateDLL\\dllmain.cpp",
+              "ToolTip": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw5\\CreateDLL\\dllmain.cpp",
+              "RelativeToolTip": "CreateDLL\\dllmain.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-31T11:09:56.014Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

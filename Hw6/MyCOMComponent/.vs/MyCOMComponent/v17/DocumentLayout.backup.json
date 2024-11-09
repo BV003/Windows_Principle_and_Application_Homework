@@ -1,0 +1,132 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw6\\MyCOMComponent\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{30DD6E94-6649-4840-9E1C-415FAFD7E0FB}|..\\CallCOMComponent\\CallCOMComponent.csproj|c:\\users\\lwq_0\\desktop\\windowscode\\hw6\\callcomcomponent\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30DD6E94-6649-4840-9E1C-415FAFD7E0FB}|..\\CallCOMComponent\\CallCOMComponent.csproj|c:\\users\\lwq_0\\desktop\\windowscode\\hw6\\callcomcomponent\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|MyCOMComponent||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76AC9CAA-1071-4E6A-B6BA-9DF9837F30C7}|MyCOMComponent.csproj|c:\\users\\lwq_0\\desktop\\windowscode\\hw6\\mycomcomponent\\expressimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76AC9CAA-1071-4E6A-B6BA-9DF9837F30C7}|MyCOMComponent.csproj|solutionrelative:expressimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76AC9CAA-1071-4E6A-B6BA-9DF9837F30C7}|MyCOMComponent.csproj|c:\\users\\lwq_0\\desktop\\windowscode\\hw6\\mycomcomponent\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76AC9CAA-1071-4E6A-B6BA-9DF9837F30C7}|MyCOMComponent.csproj|solutionrelative:class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76AC9CAA-1071-4E6A-B6BA-9DF9837F30C7}|MyCOMComponent.csproj|c:\\users\\lwq_0\\desktop\\windowscode\\hw6\\mycomcomponent\\iexpress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76AC9CAA-1071-4E6A-B6BA-9DF9837F30C7}|MyCOMComponent.csproj|solutionrelative:iexpress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76AC9CAA-1071-4E6A-B6BA-9DF9837F30C7}|MyCOMComponent.csproj|c:\\users\\lwq_0\\desktop\\windowscode\\hw6\\mycomcomponent\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|1e78f8db-6c07-4d61-a18f-7514010abd56"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1a46fd64-28d5-434c-8eb3-17a02d419b53}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw6\\CallCOMComponent\\Form1.cs",
+              "RelativeDocumentMoniker": "..\\CallCOMComponent\\Form1.cs",
+              "ToolTip": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw6\\CallCOMComponent\\Form1.cs",
+              "RelativeToolTip": "..\\CallCOMComponent\\Form1.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAMwDYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T02:05:29.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw6\\CallCOMComponent\\Form1.cs",
+              "RelativeDocumentMoniker": "..\\CallCOMComponent\\Form1.cs",
+              "ToolTip": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw6\\CallCOMComponent\\Form1.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "..\\CallCOMComponent\\Form1.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T02:04:26.958Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MyCOMComponent",
+              "DocumentMoniker": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw6\\MyCOMComponent\\MyCOMComponent.csproj",
+              "RelativeDocumentMoniker": "MyCOMComponent.csproj",
+              "ToolTip": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw6\\MyCOMComponent\\MyCOMComponent.csproj",
+              "RelativeToolTip": "MyCOMComponent.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-09T01:51:52.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ExpressImpl.cs",
+              "DocumentMoniker": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw6\\MyCOMComponent\\ExpressImpl.cs",
+              "RelativeDocumentMoniker": "ExpressImpl.cs",
+              "ToolTip": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw6\\MyCOMComponent\\ExpressImpl.cs",
+              "RelativeToolTip": "ExpressImpl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T01:50:35.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IExpress.cs",
+              "DocumentMoniker": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw6\\MyCOMComponent\\IExpress.cs",
+              "RelativeDocumentMoniker": "IExpress.cs",
+              "ToolTip": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw6\\MyCOMComponent\\IExpress.cs",
+              "RelativeToolTip": "IExpress.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T01:48:09.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw6\\MyCOMComponent\\Class1.cs",
+              "RelativeDocumentMoniker": "Class1.cs",
+              "ToolTip": "C:\\Users\\lwq_0\\Desktop\\WindowsCode\\Hw6\\MyCOMComponent\\Class1.cs",
+              "RelativeToolTip": "Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T01:37:40.707Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

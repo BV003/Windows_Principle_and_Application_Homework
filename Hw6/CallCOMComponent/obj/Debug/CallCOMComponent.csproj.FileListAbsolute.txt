@@ -1,0 +1,12 @@
+C:\Users\lwq_0\Desktop\WindowsCode\Hw6\CallCOMComponent\bin\Debug\CallCOMComponent.exe.config
+C:\Users\lwq_0\Desktop\WindowsCode\Hw6\CallCOMComponent\bin\Debug\CallCOMComponent.exe
+C:\Users\lwq_0\Desktop\WindowsCode\Hw6\CallCOMComponent\bin\Debug\CallCOMComponent.pdb
+C:\Users\lwq_0\Desktop\WindowsCode\Hw6\CallCOMComponent\bin\Debug\MyCOMComponent.dll
+C:\Users\lwq_0\Desktop\WindowsCode\Hw6\CallCOMComponent\obj\Debug\CallCOMComponent.csproj.AssemblyReference.cache
+C:\Users\lwq_0\Desktop\WindowsCode\Hw6\CallCOMComponent\obj\Debug\CallCOMComponent.Form1.resources
+C:\Users\lwq_0\Desktop\WindowsCode\Hw6\CallCOMComponent\obj\Debug\CallCOMComponent.Properties.Resources.resources
+C:\Users\lwq_0\Desktop\WindowsCode\Hw6\CallCOMComponent\obj\Debug\CallCOMComponent.csproj.GenerateResource.cache
+C:\Users\lwq_0\Desktop\WindowsCode\Hw6\CallCOMComponent\obj\Debug\CallCOMComponent.csproj.CoreCompileInputs.cache
+C:\Users\lwq_0\Desktop\WindowsCode\Hw6\CallCOMComponent\obj\Debug\CallCOMC.FE632443.Up2Date
+C:\Users\lwq_0\Desktop\WindowsCode\Hw6\CallCOMComponent\obj\Debug\CallCOMComponent.exe
+C:\Users\lwq_0\Desktop\WindowsCode\Hw6\CallCOMComponent\obj\Debug\CallCOMComponent.pdb

@@ -1,0 +1,7 @@
+C:\Users\lwq_0\Desktop\WindowsCode\Hw6\MyCOMComponent\bin\Debug\MyCOMComponent.pdb
+C:\Users\lwq_0\Desktop\WindowsCode\Hw6\MyCOMComponent\obj\Debug\MyCOMComponent.csproj.AssemblyReference.cache
+C:\Users\lwq_0\Desktop\WindowsCode\Hw6\MyCOMComponent\obj\Debug\MyCOMComponent.csproj.CoreCompileInputs.cache
+C:\Users\lwq_0\Desktop\WindowsCode\Hw6\MyCOMComponent\obj\Debug\MyCOMComponent.dll
+C:\Users\lwq_0\Desktop\WindowsCode\Hw6\MyCOMComponent\obj\Debug\MyCOMComponent.pdb
+C:\Users\lwq_0\Desktop\WindowsCode\Hw6\MyCOMComponent\obj\Debug\MyCOMCom.EF21A9CF.Up2Date
+C:\Users\lwq_0\Desktop\WindowsCode\Hw6\MyCOMComponent\bin\Debug\MyCOMComponent.tlb

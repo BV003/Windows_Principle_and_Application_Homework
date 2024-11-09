@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCOMComponent", "MyCOMComponent.csproj", "{76AC9CAA-1071-4E6A-B6BA-9DF9837F30C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallCOMComponent", "..\CallCOMComponent\CallCOMComponent.csproj", "{30DD6E94-6649-4840-9E1C-415FAFD7E0FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76AC9CAA-1071-4E6A-B6BA-9DF9837F30C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76AC9CAA-1071-4E6A-B6BA-9DF9837F30C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76AC9CAA-1071-4E6A-B6BA-9DF9837F30C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76AC9CAA-1071-4E6A-B6BA-9DF9837F30C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30DD6E94-6649-4840-9E1C-415FAFD7E0FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30DD6E94-6649-4840-9E1C-415FAFD7E0FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30DD6E94-6649-4840-9E1C-415FAFD7E0FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30DD6E94-6649-4840-9E1C-415FAFD7E0FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6CDCC322-4625-4786-8EE8-0E60A6BBFFE7}
+	EndGlobalSection
+EndGlobal

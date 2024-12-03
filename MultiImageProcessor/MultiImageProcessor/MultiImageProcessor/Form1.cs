@@ -147,7 +147,7 @@ namespace MultiImageProcessor
                 }
 
             }
-            // 处理完成后，找到对应的ProgressInfo对象并更新状态
+            //处理完成后，找到对应的ProgressInfo对象并更新状态
             foreach (ProgressInfo progress in progressQueue)
             {
                 if (progress.FileName == filePath && progress.Status == "处理中")
@@ -162,36 +162,29 @@ namespace MultiImageProcessor
                     break;
                 }
             }
+
         }
 
-        //private void UpdateProgress()
-        //{
-        //    //if (progressQueue.Count > 0)
-        //    //{
-        //    //    ProgressInfo info = progressQueue.Dequeue();
-        //    //    // 根据info中的文件名找到界面文件列表里对应的项，更新其显示的处理状态
-        //    //}
-        //    if (progressQueue.Count > 0)
-        //    {
-        //        ProgressInfo progress = progressQueue.Dequeue();
+        private void UpdateProgress()
+        {
+            if (progressQueue.Count > 0)
+            {
+                ProgressInfo progress = progressQueue.Dequeue();
 
-        //        // 在ListBox中更新文件状态
-        //        int listBoxIndex = listBox1.Items.IndexOf(progress.FileName + " [待处理]");
-        //        if (listBoxIndex != -1)
-        //        {
-        //            listBox1.Items[listBoxIndex] = progress.FileName + $" [ {progress.Status} ]";
-        //        }
-        //    }
-        //}
+                // 在ListBox中更新文件状态
+                int listBoxIndex = listBox1.Items.IndexOf(progress.FileName + " [待处理]");
+                if (listBoxIndex != -1)
+                {
+                    listBox1.Items[listBoxIndex] = progress.FileName + $" [ {progress.Status} ]";
+                }
+            }
+        }
 
         public Form1()
         {
             InitializeComponent();
             comboBox1.SelectedIndex = 0;
-            //System.Windows.Forms.Timer timer = new System.Windows.Forms.Timer();
-            //timer.Interval = 100;
-            //timer.Tick += (s, args) => UpdateProgress();
-            //timer.Start();
+            Control.CheckForIllegalCrossThreadCalls = false;
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -206,7 +199,7 @@ namespace MultiImageProcessor
             if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
                 string filePath = openFileDialog.FileName;
-                imageQueue.Enqueue(filePath);
+                //imageQueue.Enqueue(filePath);
                 listBox1.Items.Add(filePath + " [待处理]");
             }
         }
@@ -219,7 +212,7 @@ namespace MultiImageProcessor
                 //string filePath = selectedItem.Substring(0, selectedItem.IndexOf(" [待处理]"));
                 int startIndex = selectedItem.LastIndexOf(" [");
                 string filePath = selectedItem.Substring(0, startIndex);
-                imageQueue = new Queue<string>(imageQueue.Where(x => x != filePath));
+                //imageQueue = new Queue<string>(imageQueue.Where(x => x != filePath));
                 listBox1.Items.Remove(listBox1.SelectedItem);
             }
         }
@@ -231,33 +224,28 @@ namespace MultiImageProcessor
 
         private void button4_Click(object sender, EventArgs e)
         {
-            //string processingOption = comboBox1.SelectedItem.ToString();
-            //foreach (string filePath in imageQueue)
-            //{
-            //   string tempOption = processingOption;
-            //   Thread thread = new Thread(() => ProcessImageInThread(filePath, tempOption));
-            //   thread.Start();
-            //}
             string processingOption = comboBox1.SelectedItem.ToString();
-            foreach (string filePath in imageQueue)
+            string selectedfilePath = listBox1.SelectedItem.ToString();
+            int startIndex = selectedfilePath.LastIndexOf(" [");
+            string filePath = selectedfilePath.Substring(0, startIndex);
+
+            string tempOption = processingOption;
+            // 创建ProgressInfo对象并添加到队列
+            ProgressInfo progress = new ProgressInfo
             {
-                string tempOption = processingOption;
-                // 创建ProgressInfo对象并添加到队列
-                ProgressInfo progress = new ProgressInfo
-                {
-                    FileName = filePath,
-                    Status = "处理中"
-                };
-                progressQueue.Enqueue(progress);
-                // 更新ListBox中的状态
-                int index = listBox1.Items.IndexOf(filePath + " [待处理]");
-                if (index != -1)
-                {
-                    listBox1.Items[index] = filePath + " [处理中]";
-                }
-                Thread thread = new Thread(() => ProcessImageInThread(filePath, tempOption));
-                thread.Start();
+                FileName = filePath,
+                Status = "处理中"
+            };
+            progressQueue.Enqueue(progress);
+            // 更新ListBox中的状态
+            int index = listBox1.Items.IndexOf(filePath + " [待处理]");
+            if (index != -1)
+            {
+                listBox1.Items[index] = filePath + " [处理中]";
             }
+            Thread thread = new Thread(() => ProcessImageInThread(filePath, tempOption));
+            thread.Start();
+
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -313,6 +301,11 @@ namespace MultiImageProcessor
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

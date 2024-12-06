@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\lwq_0\\Desktop\\Windows_Principle_and_Application_Homework\\MultiImageProcessor\\MultiImageProcessor\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{53D392B8-BAF0-4814-8F98-22D7E33B94F2}|MultiImageProcessor\\MultiImageProcessor.csproj|c:\\users\\lwq_0\\desktop\\windows_principle_and_application_homework\\multiimageprocessor\\multiimageprocessor\\multiimageprocessor\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53D392B8-BAF0-4814-8F98-22D7E33B94F2}|MultiImageProcessor\\MultiImageProcessor.csproj|solutionrelative:multiimageprocessor\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{53D392B8-BAF0-4814-8F98-22D7E33B94F2}|MultiImageProcessor\\MultiImageProcessor.csproj|C:\\Users\\lwq_0\\Desktop\\Windows_Principle_and_Application_Homework\\MultiImageProcessor\\MultiImageProcessor\\multiimageprocessor\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{53D392B8-BAF0-4814-8F98-22D7E33B94F2}|MultiImageProcessor\\MultiImageProcessor.csproj|solutionrelative:multiimageprocessor\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{53D392B8-BAF0-4814-8F98-22D7E33B94F2}|MultiImageProcessor\\MultiImageProcessor.csproj|c:\\users\\lwq_0\\desktop\\windows_principle_and_application_homework\\multiimageprocessor\\multiimageprocessor\\multiimageprocessor\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{53D392B8-BAF0-4814-8F98-22D7E33B94F2}|MultiImageProcessor\\MultiImageProcessor.csproj|solutionrelative:multiimageprocessor\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{53D392B8-BAF0-4814-8F98-22D7E33B94F2}|MultiImageProcessor\\MultiImageProcessor.csproj|C:\\Users\\lwq_0\\Desktop\\Windows_Principle_and_Application_Homework\\MultiImageProcessor\\MultiImageProcessor\\multiimageprocessor\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53D392B8-BAF0-4814-8F98-22D7E33B94F2}|MultiImageProcessor\\MultiImageProcessor.csproj|solutionrelative:multiimageprocessor\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53D392B8-BAF0-4814-8F98-22D7E33B94F2}|MultiImageProcessor\\MultiImageProcessor.csproj|C:\\Users\\lwq_0\\Desktop\\Windows_Principle_and_Application_Homework\\MultiImageProcessor\\MultiImageProcessor\\multiimageprocessor\\imagedisplayform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{53D392B8-BAF0-4814-8F98-22D7E33B94F2}|MultiImageProcessor\\MultiImageProcessor.csproj|solutionrelative:multiimageprocessor\\imagedisplayform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53D392B8-BAF0-4814-8F98-22D7E33B94F2}|MultiImageProcessor\\MultiImageProcessor.csproj|C:\\Users\\lwq_0\\Desktop\\Windows_Principle_and_Application_Homework\\MultiImageProcessor\\MultiImageProcessor\\multiimageprocessor\\imagedisplayform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53D392B8-BAF0-4814-8F98-22D7E33B94F2}|MultiImageProcessor\\MultiImageProcessor.csproj|solutionrelative:multiimageprocessor\\imagedisplayform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,28 +42,62 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\lwq_0\\Desktop\\Windows_Principle_and_Application_Homework\\MultiImageProcessor\\MultiImageProcessor\\MultiImageProcessor\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "MultiImageProcessor\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\lwq_0\\Desktop\\Windows_Principle_and_Application_Homework\\MultiImageProcessor\\MultiImageProcessor\\MultiImageProcessor\\Form1.Designer.cs",
+              "RelativeToolTip": "MultiImageProcessor\\Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T02:23:50.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ImageDisplayForm.cs",
+              "DocumentMoniker": "C:\\Users\\lwq_0\\Desktop\\Windows_Principle_and_Application_Homework\\MultiImageProcessor\\MultiImageProcessor\\MultiImageProcessor\\ImageDisplayForm.cs",
+              "RelativeDocumentMoniker": "MultiImageProcessor\\ImageDisplayForm.cs",
+              "ToolTip": "C:\\Users\\lwq_0\\Desktop\\Windows_Principle_and_Application_Homework\\MultiImageProcessor\\MultiImageProcessor\\MultiImageProcessor\\ImageDisplayForm.cs",
+              "RelativeToolTip": "MultiImageProcessor\\ImageDisplayForm.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T02:27:57.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ImageDisplayForm.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\lwq_0\\Desktop\\Windows_Principle_and_Application_Homework\\MultiImageProcessor\\MultiImageProcessor\\MultiImageProcessor\\ImageDisplayForm.cs",
+              "RelativeDocumentMoniker": "MultiImageProcessor\\ImageDisplayForm.cs",
+              "ToolTip": "C:\\Users\\lwq_0\\Desktop\\Windows_Principle_and_Application_Homework\\MultiImageProcessor\\MultiImageProcessor\\MultiImageProcessor\\ImageDisplayForm.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "MultiImageProcessor\\ImageDisplayForm.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T02:23:34.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\lwq_0\\Desktop\\Windows_Principle_and_Application_Homework\\MultiImageProcessor\\MultiImageProcessor\\MultiImageProcessor\\Form1.cs",
               "RelativeDocumentMoniker": "MultiImageProcessor\\Form1.cs",
-              "ToolTip": "C:\\Users\\lwq_0\\Desktop\\Windows_Principle_and_Application_Homework\\MultiImageProcessor\\MultiImageProcessor\\MultiImageProcessor\\Form1.cs*",
-              "RelativeToolTip": "MultiImageProcessor\\Form1.cs*",
-              "ViewState": "AgIAAC0BAAAAAAAAAAAqwAoAAAAbAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\lwq_0\\Desktop\\Windows_Principle_and_Application_Homework\\MultiImageProcessor\\MultiImageProcessor\\MultiImageProcessor\\Form1.cs",
+              "RelativeToolTip": "MultiImageProcessor\\Form1.cs",
+              "ViewState": "AgIAAJgAAAAAAAAAAAAswKEAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-02T03:43:39.745Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "C:\\Users\\lwq_0\\Desktop\\Windows_Principle_and_Application_Homework\\MultiImageProcessor\\MultiImageProcessor\\MultiImageProcessor\\Form1.cs",
               "RelativeDocumentMoniker": "MultiImageProcessor\\Form1.cs",
-              "ToolTip": "C:\\Users\\lwq_0\\Desktop\\Windows_Principle_and_Application_Homework\\MultiImageProcessor\\MultiImageProcessor\\MultiImageProcessor\\Form1.cs [\u8BBE\u8BA1]*",
-              "RelativeToolTip": "MultiImageProcessor\\Form1.cs [\u8BBE\u8BA1]*",
+              "ToolTip": "C:\\Users\\lwq_0\\Desktop\\Windows_Principle_and_Application_Homework\\MultiImageProcessor\\MultiImageProcessor\\MultiImageProcessor\\Form1.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "MultiImageProcessor\\Form1.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T03:35:33.621Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
+              "WhenOpened": "2024-12-02T03:35:33.621Z"
             }
           ]
         }

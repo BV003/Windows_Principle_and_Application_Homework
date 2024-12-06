@@ -36,8 +36,6 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -61,9 +59,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(491, 170);
+            this.button1.Location = new System.Drawing.Point(574, 163);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(115, 46);
+            this.button1.Size = new System.Drawing.Size(155, 53);
             this.button1.TabIndex = 2;
             this.button1.Text = "添加图像";
             this.button1.UseVisualStyleBackColor = true;
@@ -73,7 +71,7 @@
             // 
             this.button2.Location = new System.Drawing.Point(754, 247);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(134, 51);
+            this.button2.Size = new System.Drawing.Size(168, 74);
             this.button2.TabIndex = 3;
             this.button2.Text = "删除所选文件";
             this.button2.UseVisualStyleBackColor = true;
@@ -98,17 +96,17 @@
             "缩小至50%",
             "顺时针旋转90°",
             "逆时针旋转90°"});
-            this.comboBox1.Location = new System.Drawing.Point(192, 526);
+            this.comboBox1.Location = new System.Drawing.Point(192, 558);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 26);
+            this.comboBox1.Size = new System.Drawing.Size(221, 26);
             this.comboBox1.TabIndex = 5;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(377, 519);
+            this.button4.Location = new System.Drawing.Point(192, 659);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(101, 38);
+            this.button4.Size = new System.Drawing.Size(175, 65);
             this.button4.TabIndex = 6;
             this.button4.Text = "开始处理";
             this.button4.UseVisualStyleBackColor = true;
@@ -116,29 +114,19 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(533, 523);
+            this.button5.Location = new System.Drawing.Point(574, 660);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(111, 31);
+            this.button5.Size = new System.Drawing.Size(155, 62);
             this.button5.TabIndex = 7;
             this.button5.Text = "取消处理";
             this.button5.UseVisualStyleBackColor = true;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(1012, 247);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(643, 458);
-            this.pictureBox1.TabIndex = 8;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1684, 1021);
-            this.Controls.Add(this.pictureBox1);
+            this.ClientSize = new System.Drawing.Size(1034, 848);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.comboBox1);
@@ -148,8 +136,8 @@
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
-            this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.Text = "MainForm";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -165,7 +153,6 @@
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

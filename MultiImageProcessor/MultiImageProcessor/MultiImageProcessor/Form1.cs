@@ -240,7 +240,7 @@ namespace MultiImageProcessor
 
             return brightenedImage;
         }
-        private async void ProcessImageInThread(string filePath, string processingOption)
+        private async void ProcessImageInThread(string filePath, string processingOption, CancellationToken cancellationToken)
         {
 
             ThreadLocal<Random> threadLocalRandom = new ThreadLocal<Random>(() => new Random(Environment.TickCount ^ Thread.CurrentThread.ManagedThreadId));
@@ -248,10 +248,14 @@ namespace MultiImageProcessor
             int delaySeconds = random.Next(4,6);
             Thread.Sleep(delaySeconds * 1000);
 
-            if (isCancelProcessing)
+            // 检查是否请求取消处理
+            if (cancellationToken.IsCancellationRequested)
             {
+                // 处理取消请求，例如记录日志、清理资源等
                 return;
             }
+
+            // 执行图像处理操作
 
             Bitmap processedImage = null;
             switch (processingOption)
@@ -362,16 +366,6 @@ namespace MultiImageProcessor
             InitializeComponent();
             comboBox1.SelectedIndex = 0;
             Control.CheckForIllegalCrossThreadCalls = false;
-            timer = new System.Timers.Timer(10000); // 3000毫秒即3秒，设置时间间隔
-            timer.Elapsed += Timer_Elapsed;
-            // 设置计时器为自动重启，即每次时间间隔到达并执行完事件处理方法后，会自动开始下一轮计时
-            timer.AutoReset = true;
-            // 启动计时器
-            timer.Start();
-        }
-        private void Timer_Elapsed(object sender, ElapsedEventArgs e)
-        {
-            isCancelProcessing = false;
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -429,10 +423,15 @@ namespace MultiImageProcessor
             }
             imageQueue = newImageQueue;
         }
-
+        private CancellationTokenSource cts;
         private void button5_Click(object sender, EventArgs e)
         {
-            isCancelProcessing = true;
+            if (cts != null)
+            {
+                cts.Cancel();
+                cts.Dispose();
+                cts = null;
+            }
             //重新更新ListBox
             string selectedOption = comboBox1.SelectedItem.ToString();
             List<(string filePath, string status)> imageStatusList = new List<(string filePath, string status)>();
@@ -451,6 +450,7 @@ namespace MultiImageProcessor
         private void button4_Click(object sender, EventArgs e)
         {
             string processingOption = comboBox1.SelectedItem.ToString();
+            cts = new CancellationTokenSource();
             foreach (string filePath in imageQueue)
             {
                 string tempOption = processingOption;
@@ -467,7 +467,8 @@ namespace MultiImageProcessor
                 {
                     listBox1.Items[index] = filePath + " [处理中]";
                 }
-                Thread thread = new Thread(() => ProcessImageInThread(filePath, tempOption));
+                
+                Thread thread = new Thread(() => ProcessImageInThread(filePath, tempOption, cts.Token));
                 thread.Start();
             }
 

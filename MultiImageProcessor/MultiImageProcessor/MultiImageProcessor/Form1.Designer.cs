@@ -89,13 +89,19 @@
             // 
             // comboBox1
             // 
+            this.comboBox1.BackColor = System.Drawing.SystemColors.Window;
+            this.comboBox1.ForeColor = System.Drawing.SystemColors.WindowText;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "灰度",
             "放大至200%",
             "缩小至50%",
             "顺时针旋转90°",
-            "逆时针旋转90°"});
+            "逆时针旋转90°",
+            "模糊",
+            "锐化",
+            "水平翻转",
+            "增加亮度"});
             this.comboBox1.Location = new System.Drawing.Point(192, 558);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(221, 26);

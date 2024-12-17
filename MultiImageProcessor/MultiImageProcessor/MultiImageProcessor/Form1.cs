@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Drawing2D;
+using System.Drawing.Imaging;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -94,18 +96,162 @@ namespace MultiImageProcessor
             return rotated;
         }
 
+        private Bitmap ProcessImageBlur(string filePath)//模糊处理
+        {
+            Bitmap originalImage = new Bitmap(filePath);
+            Bitmap blurredImage = new Bitmap(originalImage.Width, originalImage.Height);
+
+            // 定义模糊的半径
+            int blurRadius = 5;
+            int diameter = blurRadius * 2 + 1;
+
+            for (int x = 0; x < originalImage.Width; x++)
+            {
+                for (int y = 0; y < originalImage.Height; y++)
+                {
+                    Color pixelColor = Color.Empty;
+                    int r = 0, g = 0, b = 0, count = 0;
+
+                    // 遍历模糊半径内的像素
+                    for (int xx = -blurRadius; xx <= blurRadius; xx++)
+                    {
+                        for (int yy = -blurRadius; yy <= blurRadius; yy++)
+                        {
+                            int newX = x + xx;
+                            int newY = y + yy;
+
+                            // 检查边界
+                            if (newX >= 0 && newX < originalImage.Width && newY >= 0 && newY < originalImage.Height)
+                            {
+                                pixelColor = originalImage.GetPixel(newX, newY);
+                                r += pixelColor.R;
+                                g += pixelColor.G;
+                                b += pixelColor.B;
+                                count++;
+                            }
+                        }
+                    }
+
+                    // 计算平均色值
+                    if (count > 0)
+                    {
+                        r /= count;
+                        g /= count;
+                        b /= count;
+                    }
+
+                    // 设置模糊后图像的像素
+                    blurredImage.SetPixel(x, y, Color.FromArgb(r, g, b));
+                }
+            }
+
+            return blurredImage;
+        }
+        private Bitmap ProcessImageEdgeDetection(string filePath)//边缘检测
+        {
+            Bitmap originalImage = new Bitmap(filePath);
+            Bitmap edgeImage = new Bitmap(originalImage.Width, originalImage.Height);
+
+            // Sobel 算子
+            int[,] gx = new int[,]
+            {
+        { -1, 0, 1 },
+        { -2, 0, 2 },
+        { -1, 0, 1 }
+            };
+
+            int[,] gy = new int[,]
+            {
+        { 1, 2, 1 },
+        { 0, 0, 0 },
+        { -1, -2, -1 }
+            };
+
+            for (int x = 1; x < originalImage.Width - 1; x++)
+            {
+                for (int y = 1; y < originalImage.Height - 1; y++)
+                {
+                    int sumX = 0;
+                    int sumY = 0;
+
+                    // 应用 Sobel 算子
+                    for (int i = -1; i <= 1; i++)
+                    {
+                        for (int j = -1; j <= 1; j++)
+                        {
+                            Color pixelColor = originalImage.GetPixel(x + i, y + j);
+                            int gray = (int)(pixelColor.R * 0.299 + pixelColor.G * 0.587 + pixelColor.B * 0.114); // 转为灰度
+
+                            sumX += gx[i + 1, j + 1] * gray;
+                            sumY += gy[i + 1, j + 1] * gray;
+                        }
+                    }
+
+                    // 计算最终强度
+                    int magnitude = (int)Math.Sqrt(sumX * sumX + sumY * sumY);
+                    magnitude = Math.Min(255, Math.Max(0, magnitude)); // 限制在[0, 255]范围内
+
+                    // 设置边缘图像的像素
+                    edgeImage.SetPixel(x, y, Color.FromArgb(magnitude, magnitude, magnitude));
+                }
+            }
+
+            return edgeImage;
+        }
+        private Bitmap ProcessImageFlipHorizontal(string filePath)//水平翻转
+        {
+            Bitmap originalImage = new Bitmap(filePath);
+            Bitmap flippedImage = new Bitmap(originalImage.Width, originalImage.Height);
+
+            for (int x = 0; x < originalImage.Width; x++)
+            {
+                for (int y = 0; y < originalImage.Height; y++)
+                {
+                    Color pixelColor = originalImage.GetPixel(x, y);
+                    // 进行水平翻转
+                    flippedImage.SetPixel(originalImage.Width - 1 - x, y, pixelColor);
+                }
+            }
+
+            return flippedImage;
+        }
+        private Bitmap ProcessImageBrightness(string filePath)//增加亮度
+        {
+            int brightnessAdjustment = 30; // 默认增加亮度的值
+
+            Bitmap originalImage = new Bitmap(filePath);
+            Bitmap brightenedImage = new Bitmap(originalImage.Width, originalImage.Height);
+
+            for (int x = 0; x < originalImage.Width; x++)
+            {
+                for (int y = 0; y < originalImage.Height; y++)
+                {
+                    Color pixelColor = originalImage.GetPixel(x, y);
+
+                    // 调整每个颜色分量
+                    int r = Math.Min(255, Math.Max(0, pixelColor.R + brightnessAdjustment));
+                    int g = Math.Min(255, Math.Max(0, pixelColor.G + brightnessAdjustment));
+                    int b = Math.Min(255, Math.Max(0, pixelColor.B + brightnessAdjustment));
+
+                    // 设置调整后图像的像素
+                    brightenedImage.SetPixel(x, y, Color.FromArgb(r, g, b));
+                }
+            }
+
+            return brightenedImage;
+        }
         private async void ProcessImageInThread(string filePath, string processingOption)
         {
+
+            ThreadLocal<Random> threadLocalRandom = new ThreadLocal<Random>(() => new Random(Environment.TickCount ^ Thread.CurrentThread.ManagedThreadId));
+            Random random = threadLocalRandom.Value;
+            int delaySeconds = random.Next(4,6);
+            Thread.Sleep(delaySeconds * 1000);
 
             if (isCancelProcessing)
             {
                 return;
             }
-
-            ThreadLocal<Random> threadLocalRandom = new ThreadLocal<Random>(() => new Random(Environment.TickCount ^ Thread.CurrentThread.ManagedThreadId));
-            Random random = threadLocalRandom.Value;
-            int delaySeconds = random.Next(4, 5);
-            Thread.Sleep(delaySeconds * 1000);
 
             Bitmap processedImage = null;
             switch (processingOption)
@@ -124,6 +270,18 @@ namespace MultiImageProcessor
                     break;
                 case "逆时针旋转90°":
                     processedImage = ProcessImageRotateCounterclockwise(filePath);
+                    break;
+                case "模糊":
+                    processedImage = ProcessImageBlur(filePath);
+                    break;
+                case "锐化":
+                    processedImage = ProcessImageEdgeDetection(filePath);
+                    break;
+                case "水平翻转":
+                    processedImage = ProcessImageFlipHorizontal(filePath);
+                    break;
+                case "增加亮度":
+                    processedImage = ProcessImageBrightness(filePath);
                     break;
             }
             if (processedImage != null)
@@ -149,6 +307,18 @@ namespace MultiImageProcessor
                         break;
                     case "逆时针旋转90°":
                         processedFilePath = fileNameWithoutExtension + "_rotated_counterclockwise" + fileExtension;
+                        break;
+                    case "模糊":
+                        processedFilePath = fileNameWithoutExtension + "_blurred" + fileExtension;
+                        break;
+                    case "锐化":
+                        processedFilePath = fileNameWithoutExtension + "_edge" + fileExtension;
+                        break;
+                    case "水平翻转":
+                        processedFilePath = fileNameWithoutExtension + "_flipped" + fileExtension;
+                        break;
+                    case "增加亮度":
+                        processedFilePath = fileNameWithoutExtension + "_brightened" + fileExtension;
                         break;
                 }
 
@@ -192,8 +362,7 @@ namespace MultiImageProcessor
             InitializeComponent();
             comboBox1.SelectedIndex = 0;
             Control.CheckForIllegalCrossThreadCalls = false;
-            timer = new System.Timers.Timer(500); // 3000毫秒即3秒，设置时间间隔
-                                                  // 绑定计时器的Elapsed事件处理方法，当时间间隔到达时会触发这个方法
+            timer = new System.Timers.Timer(10000); // 3000毫秒即3秒，设置时间间隔
             timer.Elapsed += Timer_Elapsed;
             // 设置计时器为自动重启，即每次时间间隔到达并执行完事件处理方法后，会自动开始下一轮计时
             timer.AutoReset = true;
@@ -335,6 +504,18 @@ namespace MultiImageProcessor
                     case "逆时针旋转90°":
                         processedFilePath = fileNameWithoutExtension + "_rotated_counterclockwise" + fileExtension;
                         break;
+                    case "模糊":
+                        processedFilePath = fileNameWithoutExtension + "_blurred" + fileExtension;
+                        break;
+                    case "锐化":
+                        processedFilePath = fileNameWithoutExtension + "_edge" + fileExtension;
+                        break;
+                    case "水平翻转":
+                        processedFilePath = fileNameWithoutExtension + "_flipped" + fileExtension;
+                        break;
+                    case "增加亮度":
+                        processedFilePath = fileNameWithoutExtension + "_brightened" + fileExtension;
+                        break;
                 }
 
                 if (File.Exists(processedFilePath))
@@ -436,6 +617,19 @@ namespace MultiImageProcessor
                 case "逆时针旋转90°":
                     processedFileSuffix = "_rotated_counterclockwise" + fileExtension;
                     break;
+                case "模糊":
+                    processedFileSuffix = "_blurred" + fileExtension;
+                    break;
+                case "锐化":
+                    processedFileSuffix = "_edge" + fileExtension;
+                    break;
+                case "水平翻转":
+                    processedFileSuffix = "_flipped" + fileExtension;
+                    break;
+                case "增加亮度":
+                    processedFileSuffix= "_brightened"+fileExtension;
+                    break;
+
             }
             string processedFilePath = Path.Combine(Path.GetDirectoryName(filePath), fileNameWithoutExtension + processedFileSuffix);
             if (File.Exists(processedFilePath))
